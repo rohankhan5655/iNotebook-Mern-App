@@ -40,18 +40,7 @@
    cd ./backend
    npm install 
 
-3. Set up your environment variables:
-
-   - Create a `.env` file in the root folder of `inotebook` and add your MongoDB URI, email credentials, and Gemini API key. For more info about setting environment variables in both the frontend and backend, visit [this guide](https://codesplash.medium.com/get-environment-variable-dotenv-in-both-frontend-and-backend-mern-stack-with-vite-19c061e6dc19).
-
-4. Add the following script inside your `package.json`:
-
-   ```json
-   "scripts": {
-     "both": "concurrently \"npm run dev\" \"nodemon backend/index.js\""
-   }
-
-5. Start the frontend and backend servers:
+3. Start the frontend and backend servers:
 
    ```bash
    cd ./iNotebook-Mern-App
