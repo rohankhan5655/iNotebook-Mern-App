@@ -38,7 +38,7 @@
 
    ```bash
    cd ./backend
-   npm install 
+   npm install -D
 
 3. Start the frontend and backend servers:
 
