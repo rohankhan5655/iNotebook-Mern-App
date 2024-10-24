@@ -37,12 +37,11 @@ Welcome to **iNotebook**, my first MERN stack application! This project serves a
 
 3. Set up your environment variables:
 
-  Create a .env file in the inotebook root folder and add your MongoDB URI and email credentials and Gemini APi key.
-  for more info about Environment variable go here = [Click-here](https://codesplash.medium.com/get-environment-variable-dotenv-in-both-frontend-and-backend-mern-stack-with-vite-19c061e6dc19)
+- Create a .env file in the inotebook root folder and add your MongoDB URI and email credentials and Gemini APi key,for more info about Environment variable go here = [Click-here](https://codesplash.medium.com/get-environment-variable-dotenv-in-both-frontend-and-backend-mern-stack-with-vite-19c061e6dc19)
 
 4. Add this inside the package.json:
 
-  `` "scripts" ; {
+  ``` "scripts" ; {
       "both": "concurrently \"npm run dev\" \"nodemon Backend/index.js\""
   }
 
