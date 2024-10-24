@@ -54,6 +54,7 @@
 5. Start the frontend and backend servers:
 
    ```bash
+   cd ./iNotebook-Mern-App
    npm run both
 
 ## Usage
