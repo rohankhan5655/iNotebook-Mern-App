@@ -1,0 +1,40 @@
+.btn {
+    border: none;
+    width: 2em;
+    height: 3em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+}
+
+.sparkle {
+    fill: #b3a9a9;
+    transition: all 800ms ease;
+}
+
+.text {
+    font-weight: 600;
+    color: #000000;
+    font-size: small;
+}
+
+.btn:hover {
+    background: linear-gradient(0deg, transparent, transparent);
+    transform: translateY(-2px);
+}
+
+.btn:hover .sparkle,
+.btn.active .sparkle { /* Add this rule to change fill color when the button is active */
+    fill: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.btn:active .sparkle {
+    fill: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
