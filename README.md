@@ -48,7 +48,6 @@
 
 ## Usage
 
-- Once both servers are running, you can navigate to `http://localhost:3000` to view the application.
 - **Registration & Login**: Create an account or log in to access your notes.
 - **Create Notes**: Use the AI feature to generate notes based on your prompts, or write them manually.
 - **View & Edit Notes**: Access your stored thoughts anytime and make edits as needed.
