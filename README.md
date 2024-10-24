@@ -30,7 +30,7 @@
 
    ```bash
    git clone <repository-url>
-   cd inotebook
+   cd iNotebook-Mern-App
    npm install
 
 
